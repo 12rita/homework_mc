@@ -102,7 +102,7 @@ void micro::next() try
 	string com;
 	stringstream ss(rom[pc]);
 	ss >> com;
-	if (com == "mov")
+	if (com == "mov") //не удобнее было бы написать через case все else if ?
 	{
 		string fo, so;
 		ss >> fo >> so;
