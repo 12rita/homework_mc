@@ -37,19 +37,19 @@ void micro::mod(uint8_t* a, uint8_t* b)
 	cout << "%" << endl;
 }
 
-void micro:: and (uint8_t* a, uint8_t* b)
+void micro:: and (uint8_t* a, uint8_t* b) //название функции содержит зарезервированное слово, не везде запустится 
 {
 	*a &= *b;
 	cout << "&" << endl;
 }
 
-void micro:: or (uint8_t* a, uint8_t* b)
+void micro:: or (uint8_t* a, uint8_t* b)//аналогично
 {
 	*a |= *b;
 	cout << "|" << endl;
 }
 
-void micro:: xor (uint8_t* a, uint8_t* b)
+void micro:: xor (uint8_t* a, uint8_t* b)//аналогично
 {
 	*a ^= *b;
 	cout << "^" << endl;
